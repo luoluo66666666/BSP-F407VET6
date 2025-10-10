@@ -1,0 +1,31 @@
+from building import *
+import os
+
+def scan_c_files(path):
+    """
+    递归扫描 path 目录下的所有 .c 文件，返回列表
+    """
+    c_files = []
+    for root, dirs, files in os.walk(path):
+        for f in files:
+            if f.endswith('.c'):
+                c_files.append(os.path.join(root, f))
+    return c_files
+
+# Applications 文件夹路径
+cwd = GetCurrentDir()
+
+# 自动扫描 Applications 下所有 .c 文件
+src = scan_c_files(cwd)
+
+# 自动加入 Applications 及子目录为头文件搜索路径
+CPPPATH = [cwd]
+for root, dirs, files in os.walk(cwd):
+    for d in dirs:
+        CPPPATH.append(os.path.join(root, d))
+
+# 定义 Applications 构建组
+group = DefineGroup('Applications', src, depend=[''], CPPPATH=CPPPATH)
+
+# 返回 group 给上层 SConscript 或 SConstruct
+Return('group')
