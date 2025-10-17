@@ -71,24 +71,10 @@ include CMakeFiles/rtt_klibc.dir/flags.make
 CMakeFiles/rtt_klibc.dir/codegen:
 .PHONY : CMakeFiles/rtt_klibc.dir/codegen
 
-CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj: CMakeFiles/rtt_klibc.dir/flags.make
-CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj: rt-thread/src/klibc/rt_vsnprintf_tiny.c
-CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj: CMakeFiles/rtt_klibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj -MF CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsnprintf_tiny.c.obj.d -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsnprintf_tiny.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\rt_vsnprintf_tiny.c
-
-CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\rt_vsnprintf_tiny.c > CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsnprintf_tiny.c.i
-
-CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\rt_vsnprintf_tiny.c -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsnprintf_tiny.c.s
-
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kerrno.c.obj: CMakeFiles/rtt_klibc.dir/flags.make
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kerrno.c.obj: rt-thread/src/klibc/kerrno.c
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kerrno.c.obj: CMakeFiles/rtt_klibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kerrno.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kerrno.c.obj"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kerrno.c.obj -MF CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kerrno.c.obj.d -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kerrno.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\kerrno.c
 
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kerrno.c.i: cmake_force
@@ -102,7 +88,7 @@ CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kerrno.c.s: cmake_force
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.obj: CMakeFiles/rtt_klibc.dir/flags.make
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.obj: rt-thread/src/klibc/rt_vsscanf.c
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.obj: CMakeFiles/rtt_klibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.obj"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.obj -MF CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsscanf.c.obj.d -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsscanf.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\rt_vsscanf.c
 
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.i: cmake_force
@@ -112,6 +98,20 @@ CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.i: cmake_force
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.s"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\rt_vsscanf.c -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsscanf.c.s
+
+CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj: CMakeFiles/rtt_klibc.dir/flags.make
+CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj: rt-thread/src/klibc/kstring.c
+CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj: CMakeFiles/rtt_klibc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj -MF CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kstring.c.obj.d -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kstring.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\kstring.c
+
+CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\kstring.c > CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kstring.c.i
+
+CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\kstring.c -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kstring.c.s
 
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstdio.c.obj: CMakeFiles/rtt_klibc.dir/flags.make
 CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstdio.c.obj: rt-thread/src/klibc/kstdio.c
@@ -127,25 +127,25 @@ CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstdio.c.s"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\kstdio.c -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kstdio.c.s
 
-CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj: CMakeFiles/rtt_klibc.dir/flags.make
-CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj: rt-thread/src/klibc/kstring.c
-CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj: CMakeFiles/rtt_klibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj -MF CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kstring.c.obj.d -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kstring.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\kstring.c
+CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj: CMakeFiles/rtt_klibc.dir/flags.make
+CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj: rt-thread/src/klibc/rt_vsnprintf_tiny.c
+CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj: CMakeFiles/rtt_klibc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj -MF CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsnprintf_tiny.c.obj.d -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsnprintf_tiny.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\rt_vsnprintf_tiny.c
 
-CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\kstring.c > CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kstring.c.i
+CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\rt_vsnprintf_tiny.c > CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsnprintf_tiny.c.i
 
-CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\kstring.c -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\kstring.c.s
+CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\src\klibc\rt_vsnprintf_tiny.c -o CMakeFiles\rtt_klibc.dir\rt-thread\src\klibc\rt_vsnprintf_tiny.c.s
 
-rtt_klibc: CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj
 rtt_klibc: CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kerrno.c.obj
 rtt_klibc: CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsscanf.c.obj
-rtt_klibc: CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstdio.c.obj
 rtt_klibc: CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstring.c.obj
+rtt_klibc: CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/kstdio.c.obj
+rtt_klibc: CMakeFiles/rtt_klibc.dir/rt-thread/src/klibc/rt_vsnprintf_tiny.c.obj
 rtt_klibc: CMakeFiles/rtt_klibc.dir/build.make
 .PHONY : rtt_klibc
 

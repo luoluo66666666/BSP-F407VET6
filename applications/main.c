@@ -11,7 +11,9 @@
 #include <board.h>
 #include <rtdevice.h>
 #include <rtthread.h>
-#include "usb.h"
+// #include "usb.h"
+#include "usbd_core.h"
+#include "usbd_cdc_acm.h"
 
 /* defined the LED0 pin: PB1 */
 #define LED0_PIN GET_PIN(C, 2)
@@ -21,7 +23,10 @@
 static void usb_thread_entry(void *arg)
 {
 }
-
+extern void cdc_acm_init(uint8_t busid, uintptr_t reg_base);
+extern void cdc_acm_data_send_with_dtr_test(uint8_t busid);
+extern void cdc_acm_data_send(uint8_t busid, uint8_t *data, uint32_t len);
+extern USB_NOCACHE_RAM_SECTION USB_MEM_ALIGNX uint8_t test_buffer[2048];
 int main(void)
 {
     int count = 1;
@@ -30,37 +35,21 @@ int main(void)
     rt_pin_mode(LED1_PIN, PIN_MODE_OUTPUT);
     rt_pin_mode(POWER_CTRL_PIN, PIN_MODE_OUTPUT);
     rt_pin_write(POWER_CTRL_PIN, PIN_HIGH);
-    rt_pin_write(POWER_CTRL_PIN, PIN_HIGH);
     char buf[64];
-    usb_sample();
+    // usbd_initialize();
+    const char msg[] = "hello cherryusb\r\n";
+    memcpy(&test_buffer[0], msg, strlen(msg));
 
+    cdc_acm_init(0, USB_OTG_FS_PERIPH_BASE);
     while (count++)
     {
-        rt_size_t n = Usb_Recv(buf, sizeof(buf));
-        if (n > 0)
-        {
-            rt_kprintf("recv from usb: %s\n", buf);
-        }
+        cdc_acm_data_send(0, test_buffer, sizeof(msg));
         rt_pin_write(LED0_PIN, PIN_HIGH);
         rt_pin_write(LED1_PIN, PIN_HIGH);
         rt_thread_mdelay(500);
         rt_pin_write(LED0_PIN, PIN_LOW);
         rt_pin_write(LED1_PIN, PIN_LOW);
         rt_thread_mdelay(500);
-
-        // rt_device_t dev;
-        // dev = rt_device_find("vcom"); // 查找设备
-        // rt_device_open(dev, RT_DEVICE_FLAG_RDWR | RT_DEVICE_FLAG_INT_RX);
-
-        // // 写数据
-        // char tx_buf[] = "Hello from RT-Thread USB CDC\n";
-        // rt_device_write(dev, 0, tx_buf, sizeof(tx_buf));
-
-        // // 读数据（阻塞/非阻塞）
-        // char rx_buf[64];
-        // rt_size_t n = rt_device_read(dev, 0, rx_buf, sizeof(rx_buf));
-
-        // rt_pin_write(POWER_CTRL_PIN, PIN_LOW);
     }
 
     return RT_EOK;

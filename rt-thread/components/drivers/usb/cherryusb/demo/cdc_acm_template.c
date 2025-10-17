@@ -277,3 +277,31 @@ void cdc_acm_data_send_with_dtr_test(uint8_t busid)
         }
     }
 }
+
+USB_NOCACHE_RAM_SECTION USB_MEM_ALIGNX uint8_t test_buffer[2048];
+
+extern volatile bool ep_tx_busy_flag;
+
+void cdc_acm_data_send(uint8_t busid, uint8_t *data, uint32_t len)
+{
+    if (!dtr_enable) {
+        return; // 没有终端连接则不发
+    }
+
+    // 自动检测是否为字符串（含 '\0'）
+    if (len == 0 && data != NULL) {
+        len = strlen((char *)data); // 自动计算字符串长度
+    }
+
+    if (len == 0 || data == NULL) {
+        return;
+    }
+
+    ep_tx_busy_flag = true;
+    usbd_ep_start_write(busid, CDC_IN_EP, data, len);
+
+    // 等待发送完成
+    while (ep_tx_busy_flag) {
+        rt_thread_mdelay(1);
+    }
+}

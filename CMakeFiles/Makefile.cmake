@@ -46,6 +46,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/rtt_CherryUSB.dir/DependInfo.cmake"
   "CMakeFiles/rtt_Compiler.dir/DependInfo.cmake"
   "CMakeFiles/rtt_DeviceDrivers.dir/DependInfo.cmake"
   "CMakeFiles/rtt_Drivers.dir/DependInfo.cmake"
@@ -54,7 +55,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/rtt_klibc.dir/DependInfo.cmake"
   "CMakeFiles/rtt_libcpu.dir/DependInfo.cmake"
   "CMakeFiles/rtt_Libraries.dir/DependInfo.cmake"
-  "CMakeFiles/rtt_rt_usbd.dir/DependInfo.cmake"
   "CMakeFiles/rtthread.elf.dir/DependInfo.cmake"
   "CMakeFiles/d.dir/DependInfo.cmake"
   )

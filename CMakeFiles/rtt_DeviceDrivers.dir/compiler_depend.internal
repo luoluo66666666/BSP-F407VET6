@@ -53,8 +53,6 @@ CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/ipc/completion_com
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/core/driver.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_pin.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_serial.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_common.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_device.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/completion.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/condvar.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/dataqueue.h
@@ -114,8 +112,6 @@ CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/ipc/completion_up.
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/core/driver.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_pin.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_serial.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_common.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_device.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/completion.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/condvar.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/dataqueue.h
@@ -176,8 +172,6 @@ CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/ipc/condvar.c.obj
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/core/driver.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_pin.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_serial.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_common.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_device.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/completion.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/condvar.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/dataqueue.h
@@ -238,8 +232,6 @@ CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/ipc/dataqueue.c.ob
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/core/driver.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_pin.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_serial.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_common.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_device.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/completion.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/condvar.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/dataqueue.h
@@ -299,8 +291,6 @@ CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/ipc/pipe.c.obj
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/core/driver.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_pin.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_serial.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_common.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_device.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/completion.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/condvar.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/dataqueue.h
@@ -360,8 +350,6 @@ CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/ipc/ringblk_buf.c.
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/core/driver.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_pin.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_serial.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_common.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_device.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/completion.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/condvar.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/dataqueue.h
@@ -421,8 +409,6 @@ CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/ipc/ringbuffer.c.o
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/core/driver.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_pin.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_serial.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_common.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_device.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/completion.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/condvar.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/dataqueue.h
@@ -484,8 +470,6 @@ CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/ipc/waitqueue.c.ob
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/core/driver.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_pin.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_serial.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_common.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_device.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/completion.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/condvar.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/dataqueue.h
@@ -546,8 +530,6 @@ CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/ipc/workqueue.c.ob
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/core/driver.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_pin.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_serial.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_common.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_device.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/completion.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/condvar.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/dataqueue.h
@@ -655,8 +637,6 @@ CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/serial/dev_serial.
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/core/driver.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_pin.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/dev_serial.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_common.h
- D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/drivers/usb_device.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/completion.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/condvar.h
  D:/rt-thread-code/project/BSP-F407VE/rt-thread/components/drivers/include/ipc/dataqueue.h

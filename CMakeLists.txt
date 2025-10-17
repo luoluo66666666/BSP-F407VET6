@@ -38,8 +38,24 @@ INCLUDE_DIRECTORIES(
 	rt-thread/components/drivers/include
 	rt-thread/components/drivers/phy
 	rt-thread/components/drivers/smp_call
+	rt-thread/components/drivers/usb/cherryusb
+	rt-thread/components/drivers/usb/cherryusb/common
+	rt-thread/components/drivers/usb/cherryusb/core
+	rt-thread/components/drivers/usb/cherryusb/class/hub
+	rt-thread/components/drivers/usb/cherryusb/class/cdc
+	rt-thread/components/drivers/usb/cherryusb/class/msc
+	rt-thread/components/drivers/usb/cherryusb/class/hid
+	rt-thread/components/drivers/usb/cherryusb/class/audio
+	rt-thread/components/drivers/usb/cherryusb/class/video
+	rt-thread/components/drivers/usb/cherryusb/class/wireless
+	rt-thread/components/drivers/usb/cherryusb/class/midi
+	rt-thread/components/drivers/usb/cherryusb/class/adb
+	rt-thread/components/drivers/usb/cherryusb/class/dfu
+	rt-thread/components/drivers/usb/cherryusb/class/vendor/net
+	rt-thread/components/drivers/usb/cherryusb/class/vendor/serial
+	rt-thread/components/drivers/usb/cherryusb/class/vendor/wifi
+	rt-thread/components/drivers/usb/cherryusb/osal
 	rt-thread/components/finsh
-	rt-thread/components/legacy/usb/usbdevice
 	rt-thread/components/libc/compilers/common/include
 	rt-thread/components/libc/compilers/newlib
 	rt-thread/components/libc/posix/io/epoll
@@ -67,6 +83,17 @@ ADD_DEFINITIONS(
 SET(RT_APPLICATIONS_SOURCES
 	applications/USB/usb.c
 	applications/main.c
+)
+
+SET(RT_CHERRYUSB_SOURCES
+	rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c
+	rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c
+	rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c
+	rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c
+	rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c
+	rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c
+	rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c
+	rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c
 )
 
 SET(RT_COMPILER_SOURCES
@@ -99,16 +126,15 @@ SET(RT_DRIVERS_SOURCES
 	board/board.c
 	libraries/HAL_Drivers/drivers/drv_gpio.c
 	libraries/HAL_Drivers/drivers/drv_usart.c
-	libraries/HAL_Drivers/drivers/drv_usbd.c
 	libraries/HAL_Drivers/drv_common.c
 	libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s
 )
 
 SET(RT_FINSH_SOURCES
-	rt-thread/components/finsh/shell.c
 	rt-thread/components/finsh/cmd.c
-	rt-thread/components/finsh/msh.c
 	rt-thread/components/finsh/msh_parse.c
+	rt-thread/components/finsh/msh.c
+	rt-thread/components/finsh/shell.c
 )
 
 SET(RT_KERNEL_SOURCES
@@ -130,11 +156,11 @@ SET(RT_KERNEL_SOURCES
 )
 
 SET(RT_KLIBC_SOURCES
-	rt-thread/src/klibc/rt_vsnprintf_tiny.c
 	rt-thread/src/klibc/kerrno.c
 	rt-thread/src/klibc/rt_vsscanf.c
-	rt-thread/src/klibc/kstdio.c
 	rt-thread/src/klibc/kstring.c
+	rt-thread/src/klibc/kstdio.c
+	rt-thread/src/klibc/rt_vsnprintf_tiny.c
 )
 
 SET(RT_LIBCPU_SOURCES
@@ -146,37 +172,26 @@ SET(RT_LIBCPU_SOURCES
 )
 
 SET(RT_LIBRARIES_SOURCES
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
 	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
 	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+	libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
 	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c
 )
 
 SET(RT_POSIX_SOURCES
-)
-
-SET(RT_RT_USBD_SOURCES
-	rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c
-	rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c
-	rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c
 )
 
 SET(RT_SMP_SOURCES
@@ -202,6 +217,7 @@ SET(RT_COMPILER_LIBS
 )
 
 # Libraries
+ADD_LIBRARY(rtt_CherryUSB OBJECT ${RT_CHERRYUSB_SOURCES})
 ADD_LIBRARY(rtt_Compiler OBJECT ${RT_COMPILER_SOURCES})
 ADD_LIBRARY(rtt_DeviceDrivers OBJECT ${RT_DEVICEDRIVERS_SOURCES})
 ADD_LIBRARY(rtt_Drivers OBJECT ${RT_DRIVERS_SOURCES})
@@ -210,7 +226,6 @@ ADD_LIBRARY(rtt_Kernel OBJECT ${RT_KERNEL_SOURCES})
 ADD_LIBRARY(rtt_klibc OBJECT ${RT_KLIBC_SOURCES})
 ADD_LIBRARY(rtt_libcpu OBJECT ${RT_LIBCPU_SOURCES})
 ADD_LIBRARY(rtt_Libraries OBJECT ${RT_LIBRARIES_SOURCES})
-ADD_LIBRARY(rtt_rt_usbd OBJECT ${RT_RT_USBD_SOURCES})
 
 # Interface libraries
 ADD_LIBRARY(rtt_POSIX INTERFACE)
@@ -226,6 +241,7 @@ TARGET_LINK_LIBRARIES(rtt_Compiler INTERFACE ${RT_COMPILER_LIBS})
 
 ADD_EXECUTABLE(${CMAKE_PROJECT_NAME}.elf ${RT_APPLICATIONS_SOURCES})
 TARGET_LINK_LIBRARIES(${CMAKE_PROJECT_NAME}.elf
+	rtt_CherryUSB
 	rtt_Compiler
 	rtt_DeviceDrivers
 	rtt_Drivers
@@ -234,7 +250,6 @@ TARGET_LINK_LIBRARIES(${CMAKE_PROJECT_NAME}.elf
 	rtt_klibc
 	rtt_libcpu
 	rtt_Libraries
-	rtt_rt_usbd
 	rtt_POSIX
 	rtt_smp
 	rtt_utestcases
@@ -255,4 +270,3 @@ add_custom_target(
     COMMAND openocd -f interface/stlink.cfg -f target/stm32f4x.cfg -c "program rtthread.elf verify reset; shutdown"
     COMMENT "Flashing STM32F4 with OpenOCD"
 )
-

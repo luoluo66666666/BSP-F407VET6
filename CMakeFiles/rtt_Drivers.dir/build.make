@@ -127,24 +127,10 @@ CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usart.c.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usart.c.s"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\libraries\HAL_Drivers\drivers\drv_usart.c -o CMakeFiles\rtt_Drivers.dir\libraries\HAL_Drivers\drivers\drv_usart.c.s
 
-CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.obj: CMakeFiles/rtt_Drivers.dir/flags.make
-CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.obj: libraries/HAL_Drivers/drivers/drv_usbd.c
-CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.obj: CMakeFiles/rtt_Drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.obj -MF CMakeFiles\rtt_Drivers.dir\libraries\HAL_Drivers\drivers\drv_usbd.c.obj.d -o CMakeFiles\rtt_Drivers.dir\libraries\HAL_Drivers\drivers\drv_usbd.c.obj -c D:\rt-thread-code\project\BSP-F407VE\libraries\HAL_Drivers\drivers\drv_usbd.c
-
-CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\libraries\HAL_Drivers\drivers\drv_usbd.c > CMakeFiles\rtt_Drivers.dir\libraries\HAL_Drivers\drivers\drv_usbd.c.i
-
-CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\libraries\HAL_Drivers\drivers\drv_usbd.c -o CMakeFiles\rtt_Drivers.dir\libraries\HAL_Drivers\drivers\drv_usbd.c.s
-
 CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.obj: CMakeFiles/rtt_Drivers.dir/flags.make
 CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.obj: libraries/HAL_Drivers/drv_common.c
 CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.obj: CMakeFiles/rtt_Drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.obj"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.obj -MF CMakeFiles\rtt_Drivers.dir\libraries\HAL_Drivers\drv_common.c.obj.d -o CMakeFiles\rtt_Drivers.dir\libraries\HAL_Drivers\drv_common.c.obj -c D:\rt-thread-code\project\BSP-F407VE\libraries\HAL_Drivers\drv_common.c
 
 CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.i: cmake_force
@@ -157,7 +143,7 @@ CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.s: cmake_force
 
 CMakeFiles/rtt_Drivers.dir/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s.obj: CMakeFiles/rtt_Drivers.dir/flags.make
 CMakeFiles/rtt_Drivers.dir/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s.obj: libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building ASM object CMakeFiles/rtt_Drivers.dir/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building ASM object CMakeFiles/rtt_Drivers.dir/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s.obj"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtt_Drivers.dir\libraries\STM32F4xx_HAL\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f407xx.s.obj -c D:\rt-thread-code\project\BSP-F407VE\libraries\STM32F4xx_HAL\CMSIS\Device\ST\STM32F4xx\Source\Templates\gcc\startup_stm32f407xx.s
 
 CMakeFiles/rtt_Drivers.dir/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s.i: cmake_force
@@ -172,7 +158,6 @@ rtt_Drivers: CMakeFiles/rtt_Drivers.dir/board/CubeMX_Config/Src/stm32f4xx_hal_ms
 rtt_Drivers: CMakeFiles/rtt_Drivers.dir/board/board.c.obj
 rtt_Drivers: CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_gpio.c.obj
 rtt_Drivers: CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usart.c.obj
-rtt_Drivers: CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.obj
 rtt_Drivers: CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.obj
 rtt_Drivers: CMakeFiles/rtt_Drivers.dir/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s.obj
 rtt_Drivers: CMakeFiles/rtt_Drivers.dir/build.make

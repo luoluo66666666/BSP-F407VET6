@@ -84,8 +84,6 @@ CMakeFiles/rtt_Drivers.dir/board/board.c.obj: board/board.c \
   rt-thread/components/drivers/include/drivers/core/driver.h \
   rt-thread/components/drivers/include/drivers/dev_pin.h \
   rt-thread/components/drivers/include/drivers/dev_serial.h \
-  rt-thread/components/drivers/include/drivers/usb_common.h \
-  rt-thread/components/drivers/include/drivers/usb_device.h \
   rt-thread/components/drivers/include/ipc/completion.h \
   rt-thread/components/drivers/include/ipc/condvar.h \
   rt-thread/components/drivers/include/ipc/dataqueue.h \
@@ -177,8 +175,6 @@ CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_gpio.c.obj: librari
   rt-thread/components/drivers/include/drivers/core/driver.h \
   rt-thread/components/drivers/include/drivers/dev_pin.h \
   rt-thread/components/drivers/include/drivers/dev_serial.h \
-  rt-thread/components/drivers/include/drivers/usb_common.h \
-  rt-thread/components/drivers/include/drivers/usb_device.h \
   rt-thread/components/drivers/include/ipc/completion.h \
   rt-thread/components/drivers/include/ipc/condvar.h \
   rt-thread/components/drivers/include/ipc/dataqueue.h \
@@ -285,8 +281,6 @@ CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usart.c.obj: librar
   rt-thread/components/drivers/include/drivers/core/driver.h \
   rt-thread/components/drivers/include/drivers/dev_pin.h \
   rt-thread/components/drivers/include/drivers/dev_serial.h \
-  rt-thread/components/drivers/include/drivers/usb_common.h \
-  rt-thread/components/drivers/include/drivers/usb_device.h \
   rt-thread/components/drivers/include/ipc/completion.h \
   rt-thread/components/drivers/include/ipc/condvar.h \
   rt-thread/components/drivers/include/ipc/dataqueue.h \
@@ -330,113 +324,6 @@ CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usart.c.obj: librar
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/features.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/lock.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/reent.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/types.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
-  rtconfig.h
-
-CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.obj: libraries/HAL_Drivers/drivers/drv_usbd.c \
-  board/board.h \
-  board/CubeMX_Config/Inc/stm32f4xx_hal_conf.h \
-  libraries/HAL_Drivers/drv_common.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_compiler.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_gcc.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_version.h \
-  libraries/HAL_Drivers/CMSIS/Include/core_cm4.h \
-  libraries/HAL_Drivers/CMSIS/Include/mpu_armv7.h \
-  libraries/HAL_Drivers/drivers/drv_config.h \
-  libraries/HAL_Drivers/drivers/drv_gpio.h \
-  libraries/HAL_Drivers/drivers/config/f4/adc_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/dac_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/dma_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/i2c_hard_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/pulse_encoder_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/pwm_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/qspi_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/sdio_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/spi_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/tim_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/uart_config.h \
-  libraries/HAL_Drivers/drivers/config/f4/usbd_config.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
-  rt-thread/components/drivers/include/drivers/classes/block.h \
-  rt-thread/components/drivers/include/drivers/classes/char.h \
-  rt-thread/components/drivers/include/drivers/classes/graphic.h \
-  rt-thread/components/drivers/include/drivers/classes/mtd.h \
-  rt-thread/components/drivers/include/drivers/classes/net.h \
-  rt-thread/components/drivers/include/drivers/core/bus.h \
-  rt-thread/components/drivers/include/drivers/core/driver.h \
-  rt-thread/components/drivers/include/drivers/dev_pin.h \
-  rt-thread/components/drivers/include/drivers/dev_serial.h \
-  rt-thread/components/drivers/include/drivers/usb_common.h \
-  rt-thread/components/drivers/include/drivers/usb_device.h \
-  rt-thread/components/drivers/include/ipc/completion.h \
-  rt-thread/components/drivers/include/ipc/condvar.h \
-  rt-thread/components/drivers/include/ipc/dataqueue.h \
-  rt-thread/components/drivers/include/ipc/pipe.h \
-  rt-thread/components/drivers/include/ipc/poll.h \
-  rt-thread/components/drivers/include/ipc/ringblk_buf.h \
-  rt-thread/components/drivers/include/ipc/ringbuffer.h \
-  rt-thread/components/drivers/include/ipc/waitqueue.h \
-  rt-thread/components/drivers/include/ipc/workqueue.h \
-  rt-thread/components/drivers/include/rtdevice.h \
-  rt-thread/components/finsh/finsh.h \
-  rt-thread/include/klibc/kerrno.h \
-  rt-thread/include/klibc/kstdio.h \
-  rt-thread/include/klibc/kstring.h \
-  rt-thread/include/rtatomic.h \
-  rt-thread/include/rtcompiler.h \
-  rt-thread/include/rtdef.h \
-  rt-thread/include/rthw.h \
-  rt-thread/include/rtklibc.h \
-  rt-thread/include/rtm.h \
-  rt-thread/include/rtsched.h \
-  rt-thread/include/rtservice.h \
-  rt-thread/include/rtthread.h \
-  rt-thread/include/rttypes.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_ansi.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_newlib_version.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_default_types.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_types.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/ieeefp.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/types.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/newlib.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/string.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_intsup.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_pthreadtypes.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_types.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/cdefs.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/config.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/errno.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/features.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/lock.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/reent.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/string.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/types.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
@@ -488,8 +375,6 @@ CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.obj: libraries/HAL
   rt-thread/components/drivers/include/drivers/core/driver.h \
   rt-thread/components/drivers/include/drivers/dev_pin.h \
   rt-thread/components/drivers/include/drivers/dev_serial.h \
-  rt-thread/components/drivers/include/drivers/usb_common.h \
-  rt-thread/components/drivers/include/drivers/usb_device.h \
   rt-thread/components/drivers/include/ipc/completion.h \
   rt-thread/components/drivers/include/ipc/condvar.h \
   rt-thread/components/drivers/include/ipc/dataqueue.h \
@@ -614,15 +499,11 @@ C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw
 
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
 
-rt-thread/components/drivers/include/drivers/usb_common.h:
-
 rt-thread/components/drivers/include/drivers/classes/net.h:
 
 libraries/HAL_Drivers/drv_common.h:
 
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
-
-libraries/HAL_Drivers/drivers/drv_usbd.c:
 
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:
 
@@ -664,13 +545,15 @@ libraries/HAL_Drivers/drivers/drv_gpio.h:
 
 rt-thread/components/drivers/include/drivers/classes/char.h:
 
+rt-thread/include/rtdef.h:
+
+rt-thread/include/klibc/kerrno.h:
+
 rt-thread/components/drivers/include/drivers/core/bus.h:
 
 rt-thread/components/drivers/include/drivers/core/driver.h:
 
 rt-thread/components/drivers/include/drivers/dev_serial.h:
-
-rt-thread/components/drivers/include/drivers/usb_device.h:
 
 rt-thread/components/drivers/include/ipc/completion.h:
 
@@ -681,10 +564,6 @@ rt-thread/components/drivers/include/ipc/poll.h:
 rt-thread/components/drivers/include/ipc/workqueue.h:
 
 rt-thread/components/finsh/finsh.h:
-
-rt-thread/include/rtdef.h:
-
-rt-thread/include/klibc/kerrno.h:
 
 rt-thread/include/klibc/kstdio.h:
 
@@ -765,9 +644,5 @@ libraries/HAL_Drivers/drivers/drv_config.h:
 libraries/HAL_Drivers/drivers/drv_usart.h:
 
 rt-thread/include/rtdbg.h:
-
-C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/string.h:
-
-C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/string.h:
 
 libraries/HAL_Drivers/drv_common.c:

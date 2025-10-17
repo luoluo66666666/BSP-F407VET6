@@ -19,14 +19,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj.d"
   "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
   "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj.d"
-  "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj"
-  "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj.d"
-  "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj"
-  "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj.d"
-  "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
-  "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj.d"
-  "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
-  "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj.d"
   "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
   "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj.d"
   "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
@@ -41,8 +33,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj.d"
   "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj"
   "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj.d"
-  "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
-  "CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

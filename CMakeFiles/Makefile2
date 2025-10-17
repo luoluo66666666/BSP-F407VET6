@@ -62,6 +62,7 @@ CMAKE_BINARY_DIR = D:\rt-thread-code\project\BSP-F407VE
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/rtt_CherryUSB.dir/all
 all: CMakeFiles/rtt_Compiler.dir/all
 all: CMakeFiles/rtt_DeviceDrivers.dir/all
 all: CMakeFiles/rtt_Drivers.dir/all
@@ -70,11 +71,11 @@ all: CMakeFiles/rtt_Kernel.dir/all
 all: CMakeFiles/rtt_klibc.dir/all
 all: CMakeFiles/rtt_libcpu.dir/all
 all: CMakeFiles/rtt_Libraries.dir/all
-all: CMakeFiles/rtt_rt_usbd.dir/all
 all: CMakeFiles/rtthread.elf.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
+codegen: CMakeFiles/rtt_CherryUSB.dir/codegen
 codegen: CMakeFiles/rtt_Compiler.dir/codegen
 codegen: CMakeFiles/rtt_DeviceDrivers.dir/codegen
 codegen: CMakeFiles/rtt_Drivers.dir/codegen
@@ -83,7 +84,6 @@ codegen: CMakeFiles/rtt_Kernel.dir/codegen
 codegen: CMakeFiles/rtt_klibc.dir/codegen
 codegen: CMakeFiles/rtt_libcpu.dir/codegen
 codegen: CMakeFiles/rtt_Libraries.dir/codegen
-codegen: CMakeFiles/rtt_rt_usbd.dir/codegen
 codegen: CMakeFiles/rtthread.elf.dir/codegen
 .PHONY : codegen
 
@@ -92,6 +92,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/rtt_CherryUSB.dir/clean
 clean: CMakeFiles/rtt_Compiler.dir/clean
 clean: CMakeFiles/rtt_DeviceDrivers.dir/clean
 clean: CMakeFiles/rtt_Drivers.dir/clean
@@ -100,10 +101,40 @@ clean: CMakeFiles/rtt_Kernel.dir/clean
 clean: CMakeFiles/rtt_klibc.dir/clean
 clean: CMakeFiles/rtt_libcpu.dir/clean
 clean: CMakeFiles/rtt_Libraries.dir/clean
-clean: CMakeFiles/rtt_rt_usbd.dir/clean
 clean: CMakeFiles/rtthread.elf.dir/clean
 clean: CMakeFiles/d.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rtt_CherryUSB.dir
+
+# All Build rule for target.
+CMakeFiles/rtt_CherryUSB.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=2,3,4,5,6,7,8,9 "Built target rtt_CherryUSB"
+.PHONY : CMakeFiles/rtt_CherryUSB.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rtt_CherryUSB.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/rtt_CherryUSB.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 0
+.PHONY : CMakeFiles/rtt_CherryUSB.dir/rule
+
+# Convenience name for target.
+rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rule
+.PHONY : rtt_CherryUSB
+
+# codegen rule for target.
+CMakeFiles/rtt_CherryUSB.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/codegen
+.PHONY : CMakeFiles/rtt_CherryUSB.dir/codegen
+
+# clean rule for target.
+CMakeFiles/rtt_CherryUSB.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/clean
+.PHONY : CMakeFiles/rtt_CherryUSB.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/rtt_Compiler.dir
@@ -112,7 +143,7 @@ clean: CMakeFiles/d.dir/clean
 CMakeFiles/rtt_Compiler.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Compiler.dir\build.make CMakeFiles/rtt_Compiler.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Compiler.dir\build.make CMakeFiles/rtt_Compiler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=2,3,4,5,6,7,8 "Built target rtt_Compiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=10,11,12,13,14,15,16 "Built target rtt_Compiler"
 .PHONY : CMakeFiles/rtt_Compiler.dir/all
 
 # Build rule for subdir invocation for target.
@@ -143,7 +174,7 @@ CMakeFiles/rtt_Compiler.dir/clean:
 CMakeFiles/rtt_DeviceDrivers.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_DeviceDrivers.dir\build.make CMakeFiles/rtt_DeviceDrivers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_DeviceDrivers.dir\build.make CMakeFiles/rtt_DeviceDrivers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20 "Built target rtt_DeviceDrivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=17,18,19,20,21,22,23,24,25,26,27,28 "Built target rtt_DeviceDrivers"
 .PHONY : CMakeFiles/rtt_DeviceDrivers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -174,12 +205,12 @@ CMakeFiles/rtt_DeviceDrivers.dir/clean:
 CMakeFiles/rtt_Drivers.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=21,22,23,24,25,26,27 "Built target rtt_Drivers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=29,30,31,32,33,34 "Built target rtt_Drivers"
 .PHONY : CMakeFiles/rtt_Drivers.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rtt_Drivers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/rtt_Drivers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 0
 .PHONY : CMakeFiles/rtt_Drivers.dir/rule
@@ -205,7 +236,7 @@ CMakeFiles/rtt_Drivers.dir/clean:
 CMakeFiles/rtt_Finsh.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Finsh.dir\build.make CMakeFiles/rtt_Finsh.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Finsh.dir\build.make CMakeFiles/rtt_Finsh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=28,29,30,31 "Built target rtt_Finsh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=35,36,37,38 "Built target rtt_Finsh"
 .PHONY : CMakeFiles/rtt_Finsh.dir/all
 
 # Build rule for subdir invocation for target.
@@ -236,7 +267,7 @@ CMakeFiles/rtt_Finsh.dir/clean:
 CMakeFiles/rtt_Kernel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Kernel.dir\build.make CMakeFiles/rtt_Kernel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Kernel.dir\build.make CMakeFiles/rtt_Kernel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44,45,46 "Built target rtt_Kernel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48,49,50,51,52,53 "Built target rtt_Kernel"
 .PHONY : CMakeFiles/rtt_Kernel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -267,7 +298,7 @@ CMakeFiles/rtt_Kernel.dir/clean:
 CMakeFiles/rtt_klibc.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_klibc.dir\build.make CMakeFiles/rtt_klibc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_klibc.dir\build.make CMakeFiles/rtt_klibc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=69,70,71,72,73 "Built target rtt_klibc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=71,72,73,74,75 "Built target rtt_klibc"
 .PHONY : CMakeFiles/rtt_klibc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -298,7 +329,7 @@ CMakeFiles/rtt_klibc.dir/clean:
 CMakeFiles/rtt_libcpu.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_libcpu.dir\build.make CMakeFiles/rtt_libcpu.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_libcpu.dir\build.make CMakeFiles/rtt_libcpu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=74,75,76,77,78 "Built target rtt_libcpu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=76,77,78,79,80 "Built target rtt_libcpu"
 .PHONY : CMakeFiles/rtt_libcpu.dir/all
 
 # Build rule for subdir invocation for target.
@@ -329,12 +360,12 @@ CMakeFiles/rtt_libcpu.dir/clean:
 CMakeFiles/rtt_Libraries.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68 "Built target rtt_Libraries"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70 "Built target rtt_Libraries"
 .PHONY : CMakeFiles/rtt_Libraries.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rtt_Libraries.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/rtt_Libraries.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 0
 .PHONY : CMakeFiles/rtt_Libraries.dir/rule
@@ -354,40 +385,10 @@ CMakeFiles/rtt_Libraries.dir/clean:
 .PHONY : CMakeFiles/rtt_Libraries.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/rtt_rt_usbd.dir
-
-# All Build rule for target.
-CMakeFiles/rtt_rt_usbd.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=79,80,81 "Built target rtt_rt_usbd"
-.PHONY : CMakeFiles/rtt_rt_usbd.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/rtt_rt_usbd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/rtt_rt_usbd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 0
-.PHONY : CMakeFiles/rtt_rt_usbd.dir/rule
-
-# Convenience name for target.
-rtt_rt_usbd: CMakeFiles/rtt_rt_usbd.dir/rule
-.PHONY : rtt_rt_usbd
-
-# codegen rule for target.
-CMakeFiles/rtt_rt_usbd.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/codegen
-.PHONY : CMakeFiles/rtt_rt_usbd.dir/codegen
-
-# clean rule for target.
-CMakeFiles/rtt_rt_usbd.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/clean
-.PHONY : CMakeFiles/rtt_rt_usbd.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/rtthread.elf.dir
 
 # All Build rule for target.
+CMakeFiles/rtthread.elf.dir/all: CMakeFiles/rtt_CherryUSB.dir/all
 CMakeFiles/rtthread.elf.dir/all: CMakeFiles/rtt_Compiler.dir/all
 CMakeFiles/rtthread.elf.dir/all: CMakeFiles/rtt_DeviceDrivers.dir/all
 CMakeFiles/rtthread.elf.dir/all: CMakeFiles/rtt_Drivers.dir/all
@@ -396,15 +397,14 @@ CMakeFiles/rtthread.elf.dir/all: CMakeFiles/rtt_Kernel.dir/all
 CMakeFiles/rtthread.elf.dir/all: CMakeFiles/rtt_klibc.dir/all
 CMakeFiles/rtthread.elf.dir/all: CMakeFiles/rtt_libcpu.dir/all
 CMakeFiles/rtthread.elf.dir/all: CMakeFiles/rtt_Libraries.dir/all
-CMakeFiles/rtthread.elf.dir/all: CMakeFiles/rtt_rt_usbd.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtthread.elf.dir\build.make CMakeFiles/rtthread.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtthread.elf.dir\build.make CMakeFiles/rtthread.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=82,83,84 "Built target rtthread.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=81,82,83 "Built target rtthread.elf"
 .PHONY : CMakeFiles/rtthread.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rtthread.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 83
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 82
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/rtthread.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\rt-thread-code\project\BSP-F407VE\CMakeFiles 0
 .PHONY : CMakeFiles/rtthread.elf.dir/rule

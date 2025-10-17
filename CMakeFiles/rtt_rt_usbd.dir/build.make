@@ -71,24 +71,10 @@ include CMakeFiles/rtt_rt_usbd.dir/flags.make
 CMakeFiles/rtt_rt_usbd.dir/codegen:
 .PHONY : CMakeFiles/rtt_rt_usbd.dir/codegen
 
-CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj: CMakeFiles/rtt_rt_usbd.dir/flags.make
-CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj: rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c
-CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj: CMakeFiles/rtt_rt_usbd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj -MF CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c.obj.d -o CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c
-
-CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c > CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c.i
-
-CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c -o CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c.s
-
 CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj: CMakeFiles/rtt_rt_usbd.dir/flags.make
 CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj: rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c
 CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj: CMakeFiles/rtt_rt_usbd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj -MF CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\core\usbdevice_core.c.obj.d -o CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\core\usbdevice_core.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\legacy\usb\usbdevice\core\usbdevice_core.c
 
 CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.i: cmake_force
@@ -102,7 +88,7 @@ CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdev
 CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj: CMakeFiles/rtt_rt_usbd.dir/flags.make
 CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj: rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c
 CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj: CMakeFiles/rtt_rt_usbd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj -MF CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\core\usbdevice.c.obj.d -o CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\core\usbdevice.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\legacy\usb\usbdevice\core\usbdevice.c
 
 CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.i: cmake_force
@@ -113,9 +99,23 @@ CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdev
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.s"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\legacy\usb\usbdevice\core\usbdevice.c -o CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\core\usbdevice.c.s
 
-rtt_rt_usbd: CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj
+CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj: CMakeFiles/rtt_rt_usbd.dir/flags.make
+CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj: rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c
+CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj: CMakeFiles/rtt_rt_usbd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj -MF CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c.obj.d -o CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c
+
+CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c > CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c.i
+
+CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c -o CMakeFiles\rtt_rt_usbd.dir\rt-thread\components\legacy\usb\usbdevice\class\cdc_vcom.c.s
+
 rtt_rt_usbd: CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj
 rtt_rt_usbd: CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj
+rtt_rt_usbd: CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj
 rtt_rt_usbd: CMakeFiles/rtt_rt_usbd.dir/build.make
 .PHONY : rtt_rt_usbd
 

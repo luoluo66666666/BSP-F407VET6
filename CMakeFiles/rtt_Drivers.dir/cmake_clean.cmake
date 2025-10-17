@@ -7,8 +7,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_gpio.c.obj.d"
   "CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usart.c.obj"
   "CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usart.c.obj.d"
-  "CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.obj"
-  "CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.obj.d"
   "CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.obj"
   "CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drv_common.c.obj.d"
   "CMakeFiles/rtt_Drivers.dir/libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f407xx.s.obj"

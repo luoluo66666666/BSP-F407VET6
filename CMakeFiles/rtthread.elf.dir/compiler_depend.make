@@ -12,8 +12,6 @@ CMakeFiles/rtthread.elf.dir/applications/USB/usb.c.obj: applications/USB/usb.c \
   rt-thread/components/drivers/include/drivers/core/driver.h \
   rt-thread/components/drivers/include/drivers/dev_pin.h \
   rt-thread/components/drivers/include/drivers/dev_serial.h \
-  rt-thread/components/drivers/include/drivers/usb_common.h \
-  rt-thread/components/drivers/include/drivers/usb_device.h \
   rt-thread/components/drivers/include/ipc/completion.h \
   rt-thread/components/drivers/include/ipc/condvar.h \
   rt-thread/components/drivers/include/ipc/dataqueue.h \
@@ -63,8 +61,8 @@ CMakeFiles/rtthread.elf.dir/applications/USB/usb.c.obj: applications/USB/usb.c \
   rtconfig.h
 
 CMakeFiles/rtthread.elf.dir/applications/main.c.obj: applications/main.c \
-  applications/USB/usb.h \
   board/board.h \
+  board/usb_config.h \
   board/CubeMX_Config/Inc/stm32f4xx_hal_conf.h \
   libraries/HAL_Drivers/drv_common.h \
   libraries/HAL_Drivers/CMSIS/Include/cmsis_compiler.h \
@@ -105,8 +103,6 @@ CMakeFiles/rtthread.elf.dir/applications/main.c.obj: applications/main.c \
   rt-thread/components/drivers/include/drivers/core/driver.h \
   rt-thread/components/drivers/include/drivers/dev_pin.h \
   rt-thread/components/drivers/include/drivers/dev_serial.h \
-  rt-thread/components/drivers/include/drivers/usb_common.h \
-  rt-thread/components/drivers/include/drivers/usb_device.h \
   rt-thread/components/drivers/include/ipc/completion.h \
   rt-thread/components/drivers/include/ipc/condvar.h \
   rt-thread/components/drivers/include/ipc/dataqueue.h \
@@ -117,6 +113,17 @@ CMakeFiles/rtthread.elf.dir/applications/main.c.obj: applications/main.c \
   rt-thread/components/drivers/include/ipc/waitqueue.h \
   rt-thread/components/drivers/include/ipc/workqueue.h \
   rt-thread/components/drivers/include/rtdevice.h \
+  rt-thread/components/drivers/usb/cherryusb/class/cdc/usb_cdc.h \
+  rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_dc.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_def.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_errno.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_list.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_log.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_memcpy.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_util.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_version.h \
+  rt-thread/components/drivers/usb/cherryusb/core/usbd_core.h \
   rt-thread/components/finsh/finsh.h \
   rt-thread/include/klibc/kerrno.h \
   rt-thread/include/klibc/kstdio.h \
@@ -133,12 +140,17 @@ CMakeFiles/rtthread.elf.dir/applications/main.c.obj: applications/main.c \
   rt-thread/include/rttypes.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_ansi.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_newlib_version.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/alloca.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_default_types.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_types.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/stdlib.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/types.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/newlib.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdint.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdio.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdlib.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/string.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_intsup.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_pthreadtypes.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_stdint.h \
@@ -149,8 +161,11 @@ CMakeFiles/rtthread.elf.dir/applications/main.c.obj: applications/main.c \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/features.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/lock.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/reent.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/stdio.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/string.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/types.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   rtconfig.h
@@ -169,8 +184,6 @@ rt-thread/components/drivers/include/drivers/core/bus.h:
 libraries/HAL_Drivers/drv_common.h:
 
 rt-thread/include/rtm.h:
-
-rt-thread/components/drivers/include/drivers/usb_common.h:
 
 rt-thread/components/drivers/include/drivers/classes/net.h:
 
@@ -203,8 +216,6 @@ rt-thread/components/drivers/include/drivers/dev_pin.h:
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/lock.h:
 
 rt-thread/components/drivers/include/drivers/dev_serial.h:
-
-rt-thread/components/drivers/include/drivers/usb_device.h:
 
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/ieeefp.h:
 
@@ -266,6 +277,8 @@ C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw
 
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/errno.h:
 
+rt-thread/components/drivers/usb/cherryusb/common/usb_errno.h:
+
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdint.h:
 
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_intsup.h:
@@ -283,6 +296,8 @@ C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw
 rtconfig.h:
 
 applications/main.c:
+
+board/usb_config.h:
 
 board/CubeMX_Config/Inc/stm32f4xx_hal_conf.h:
 
@@ -341,3 +356,39 @@ libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h:
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
+
+rt-thread/components/drivers/usb/cherryusb/class/cdc/usb_cdc.h:
+
+rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.h:
+
+rt-thread/components/drivers/usb/cherryusb/common/usb_dc.h:
+
+rt-thread/components/drivers/usb/cherryusb/common/usb_def.h:
+
+rt-thread/components/drivers/usb/cherryusb/common/usb_list.h:
+
+rt-thread/components/drivers/usb/cherryusb/common/usb_log.h:
+
+rt-thread/components/drivers/usb/cherryusb/common/usb_memcpy.h:
+
+rt-thread/components/drivers/usb/cherryusb/common/usb_util.h:
+
+rt-thread/components/drivers/usb/cherryusb/common/usb_version.h:
+
+rt-thread/components/drivers/usb/cherryusb/core/usbd_core.h:
+
+C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/alloca.h:
+
+C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/stdlib.h:
+
+C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdio.h:
+
+C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdlib.h:
+
+C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/string.h:
+
+C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/stdio.h:
+
+C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/string.h:
+
+C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:

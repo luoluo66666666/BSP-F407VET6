@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named rtt_CherryUSB
+
+# Build rule for target.
+rtt_CherryUSB: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rtt_CherryUSB
+.PHONY : rtt_CherryUSB
+
+# fast build rule for target.
+rtt_CherryUSB/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/build
+.PHONY : rtt_CherryUSB/fast
+
+#=============================================================================
 # Target rules for targets named rtt_Compiler
 
 # Build rule for target.
@@ -218,19 +231,6 @@ rtt_Libraries: cmake_check_build_system
 rtt_Libraries/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/build
 .PHONY : rtt_Libraries/fast
-
-#=============================================================================
-# Target rules for targets named rtt_rt_usbd
-
-# Build rule for target.
-rtt_rt_usbd: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rtt_rt_usbd
-.PHONY : rtt_rt_usbd
-
-# fast build rule for target.
-rtt_rt_usbd/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/build
-.PHONY : rtt_rt_usbd/fast
 
 #=============================================================================
 # Target rules for targets named rtthread.elf
@@ -401,30 +401,6 @@ libraries/HAL_Drivers/drivers/drv_usart.s: libraries/HAL_Drivers/drivers/drv_usa
 libraries/HAL_Drivers/drivers/drv_usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usart.c.s
 .PHONY : libraries/HAL_Drivers/drivers/drv_usart.c.s
-
-libraries/HAL_Drivers/drivers/drv_usbd.obj: libraries/HAL_Drivers/drivers/drv_usbd.c.obj
-.PHONY : libraries/HAL_Drivers/drivers/drv_usbd.obj
-
-# target to build an object file
-libraries/HAL_Drivers/drivers/drv_usbd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.obj
-.PHONY : libraries/HAL_Drivers/drivers/drv_usbd.c.obj
-
-libraries/HAL_Drivers/drivers/drv_usbd.i: libraries/HAL_Drivers/drivers/drv_usbd.c.i
-.PHONY : libraries/HAL_Drivers/drivers/drv_usbd.i
-
-# target to preprocess a source file
-libraries/HAL_Drivers/drivers/drv_usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.i
-.PHONY : libraries/HAL_Drivers/drivers/drv_usbd.c.i
-
-libraries/HAL_Drivers/drivers/drv_usbd.s: libraries/HAL_Drivers/drivers/drv_usbd.c.s
-.PHONY : libraries/HAL_Drivers/drivers/drv_usbd.s
-
-# target to generate assembly for a file
-libraries/HAL_Drivers/drivers/drv_usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Drivers.dir\build.make CMakeFiles/rtt_Drivers.dir/libraries/HAL_Drivers/drivers/drv_usbd.c.s
-.PHONY : libraries/HAL_Drivers/drivers/drv_usbd.c.s
 
 libraries/HAL_Drivers/drv_common.obj: libraries/HAL_Drivers/drv_common.c.obj
 .PHONY : libraries/HAL_Drivers/drv_common.obj
@@ -698,102 +674,6 @@ libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.obj
-
-# target to build an object file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.i: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.i
-
-# target to preprocess a source file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.s: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.s
-
-# target to generate assembly for a file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.s
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.obj
-
-# target to build an object file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.i: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.i
-
-# target to preprocess a source file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.s: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.s
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.s
-
-# target to generate assembly for a file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.s
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.s
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj
-
-# target to build an object file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i
-
-# target to preprocess a source file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s
-
-# target to generate assembly for a file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj
-
-# target to build an object file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i
-
-# target to preprocess a source file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s
-
-# target to generate assembly for a file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
-
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 .PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 
@@ -961,30 +841,6 @@ libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.s: librarie
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s
 .PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.s
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj
-
-# target to build an object file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i
-
-# target to preprocess a source file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s
-
-# target to generate assembly for a file
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Libraries.dir\build.make CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
-.PHONY : libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
 
 rt-thread/components/drivers/core/device.obj: rt-thread/components/drivers/core/device.c.obj
 .PHONY : rt-thread/components/drivers/core/device.obj
@@ -1274,6 +1130,198 @@ rt-thread/components/drivers/serial/dev_serial.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_DeviceDrivers.dir\build.make CMakeFiles/rtt_DeviceDrivers.dir/rt-thread/components/drivers/serial/dev_serial.c.s
 .PHONY : rt-thread/components/drivers/serial/dev_serial.c.s
 
+rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.obj: rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.obj
+
+# target to build an object file
+rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj
+
+rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.i: rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.i
+
+# target to preprocess a source file
+rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.i
+
+rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.s: rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.s
+
+# target to generate assembly for a file
+rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.s
+
+rt-thread/components/drivers/usb/cherryusb/core/usbd_core.obj: rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/core/usbd_core.obj
+
+# target to build an object file
+rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj
+
+rt-thread/components/drivers/usb/cherryusb/core/usbd_core.i: rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/core/usbd_core.i
+
+# target to preprocess a source file
+rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.i
+
+rt-thread/components/drivers/usb/cherryusb/core/usbd_core.s: rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/core/usbd_core.s
+
+# target to generate assembly for a file
+rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.s
+
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.obj: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.obj
+
+# target to build an object file
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj
+
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.i: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.i
+
+# target to preprocess a source file
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.i
+
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.s: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.s
+
+# target to generate assembly for a file
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.s
+
+rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.obj: rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.obj
+
+# target to build an object file
+rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj
+
+rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.i: rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.i
+
+# target to preprocess a source file
+rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.i
+
+rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.s: rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.s
+
+# target to generate assembly for a file
+rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.s
+
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.obj: rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.obj
+
+# target to build an object file
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj
+
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.i: rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.i
+
+# target to preprocess a source file
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.i
+
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.s: rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.s
+
+# target to generate assembly for a file
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.s
+
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.obj: rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.obj
+
+# target to build an object file
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj
+
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.i: rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.i
+
+# target to preprocess a source file
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.i
+
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.s: rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.s
+
+# target to generate assembly for a file
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.s
+
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.obj: rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.obj
+
+# target to build an object file
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj
+
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.i: rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.i
+
+# target to preprocess a source file
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.i
+
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.s: rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.s
+
+# target to generate assembly for a file
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.s
+
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.obj: rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.obj
+
+# target to build an object file
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj
+
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.i: rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.i
+
+# target to preprocess a source file
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.i
+
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.s: rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.s
+
+# target to generate assembly for a file
+rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.s
+
 rt-thread/components/finsh/cmd.obj: rt-thread/components/finsh/cmd.c.obj
 .PHONY : rt-thread/components/finsh/cmd.obj
 
@@ -1369,78 +1417,6 @@ rt-thread/components/finsh/shell.s: rt-thread/components/finsh/shell.c.s
 rt-thread/components/finsh/shell.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_Finsh.dir\build.make CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.s
 .PHONY : rt-thread/components/finsh/shell.c.s
-
-rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.obj: rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj
-.PHONY : rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.obj
-
-# target to build an object file
-rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj
-.PHONY : rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.obj
-
-rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.i: rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.i
-.PHONY : rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.i
-
-# target to preprocess a source file
-rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.i
-.PHONY : rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.i
-
-rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.s: rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.s
-.PHONY : rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.s
-
-# target to generate assembly for a file
-rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.s
-.PHONY : rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.c.s
-
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice.obj: rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice.obj
-
-# target to build an object file
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.obj
-
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice.i: rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.i
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice.i
-
-# target to preprocess a source file
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.i
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.i
-
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice.s: rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.s
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice.s
-
-# target to generate assembly for a file
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.s
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice.c.s
-
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.obj: rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.obj
-
-# target to build an object file
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.obj
-
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.i: rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.i
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.i
-
-# target to preprocess a source file
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.i
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.i
-
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.s: rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.s
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.s
-
-# target to generate assembly for a file
-rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_rt_usbd.dir\build.make CMakeFiles/rtt_rt_usbd.dir/rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.s
-.PHONY : rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.c.s
 
 rt-thread/components/libc/compilers/common/cctype.obj: rt-thread/components/libc/compilers/common/cctype.c.obj
 .PHONY : rt-thread/components/libc/compilers/common/cctype.obj
@@ -2203,6 +2179,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... d
+	@echo ... rtt_CherryUSB
 	@echo ... rtt_Compiler
 	@echo ... rtt_DeviceDrivers
 	@echo ... rtt_Drivers
@@ -2211,7 +2188,6 @@ help:
 	@echo ... rtt_Libraries
 	@echo ... rtt_klibc
 	@echo ... rtt_libcpu
-	@echo ... rtt_rt_usbd
 	@echo ... rtthread.elf
 	@echo ... applications/USB/usb.obj
 	@echo ... applications/USB/usb.i
@@ -2231,9 +2207,6 @@ help:
 	@echo ... libraries/HAL_Drivers/drivers/drv_usart.obj
 	@echo ... libraries/HAL_Drivers/drivers/drv_usart.i
 	@echo ... libraries/HAL_Drivers/drivers/drv_usart.s
-	@echo ... libraries/HAL_Drivers/drivers/drv_usbd.obj
-	@echo ... libraries/HAL_Drivers/drivers/drv_usbd.i
-	@echo ... libraries/HAL_Drivers/drivers/drv_usbd.s
 	@echo ... libraries/HAL_Drivers/drv_common.obj
 	@echo ... libraries/HAL_Drivers/drv_common.i
 	@echo ... libraries/HAL_Drivers/drv_common.s
@@ -2268,18 +2241,6 @@ help:
 	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj
 	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i
 	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.obj
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.i
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.s
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.obj
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.i
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.s
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s
 	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i
 	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s
@@ -2301,9 +2262,6 @@ help:
 	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.obj
 	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.i
 	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.s
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i
-	@echo ... libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s
 	@echo ... rt-thread/components/drivers/core/device.obj
 	@echo ... rt-thread/components/drivers/core/device.i
 	@echo ... rt-thread/components/drivers/core/device.s
@@ -2340,6 +2298,30 @@ help:
 	@echo ... rt-thread/components/drivers/serial/dev_serial.obj
 	@echo ... rt-thread/components/drivers/serial/dev_serial.i
 	@echo ... rt-thread/components/drivers/serial/dev_serial.s
+	@echo ... rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.obj
+	@echo ... rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.i
+	@echo ... rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.s
+	@echo ... rt-thread/components/drivers/usb/cherryusb/core/usbd_core.obj
+	@echo ... rt-thread/components/drivers/usb/cherryusb/core/usbd_core.i
+	@echo ... rt-thread/components/drivers/usb/cherryusb/core/usbd_core.s
+	@echo ... rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.obj
+	@echo ... rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.i
+	@echo ... rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.s
+	@echo ... rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.obj
+	@echo ... rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.i
+	@echo ... rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.s
+	@echo ... rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.obj
+	@echo ... rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.i
+	@echo ... rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.s
+	@echo ... rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.obj
+	@echo ... rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.i
+	@echo ... rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.s
+	@echo ... rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.obj
+	@echo ... rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.i
+	@echo ... rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.s
+	@echo ... rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.obj
+	@echo ... rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.i
+	@echo ... rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.s
 	@echo ... rt-thread/components/finsh/cmd.obj
 	@echo ... rt-thread/components/finsh/cmd.i
 	@echo ... rt-thread/components/finsh/cmd.s
@@ -2352,15 +2334,6 @@ help:
 	@echo ... rt-thread/components/finsh/shell.obj
 	@echo ... rt-thread/components/finsh/shell.i
 	@echo ... rt-thread/components/finsh/shell.s
-	@echo ... rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.obj
-	@echo ... rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.i
-	@echo ... rt-thread/components/legacy/usb/usbdevice/class/cdc_vcom.s
-	@echo ... rt-thread/components/legacy/usb/usbdevice/core/usbdevice.obj
-	@echo ... rt-thread/components/legacy/usb/usbdevice/core/usbdevice.i
-	@echo ... rt-thread/components/legacy/usb/usbdevice/core/usbdevice.s
-	@echo ... rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.obj
-	@echo ... rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.i
-	@echo ... rt-thread/components/legacy/usb/usbdevice/core/usbdevice_core.s
 	@echo ... rt-thread/components/libc/compilers/common/cctype.obj
 	@echo ... rt-thread/components/libc/compilers/common/cctype.i
 	@echo ... rt-thread/components/libc/compilers/common/cctype.s

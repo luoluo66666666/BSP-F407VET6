@@ -391,162 +391,6 @@ CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/st
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
 
-CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c \
-  board/CubeMX_Config/Inc/stm32f4xx_hal_conf.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_compiler.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_gcc.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_version.h \
-  libraries/HAL_Drivers/CMSIS/Include/core_cm4.h \
-  libraries/HAL_Drivers/CMSIS/Include/mpu_armv7.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_newlib_version.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_default_types.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_intsup.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/features.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
-
-CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c \
-  board/CubeMX_Config/Inc/stm32f4xx_hal_conf.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_compiler.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_gcc.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_version.h \
-  libraries/HAL_Drivers/CMSIS/Include/core_cm4.h \
-  libraries/HAL_Drivers/CMSIS/Include/mpu_armv7.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_newlib_version.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_default_types.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_intsup.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/features.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
-
-CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c \
-  board/CubeMX_Config/Inc/stm32f4xx_hal_conf.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_compiler.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_gcc.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_version.h \
-  libraries/HAL_Drivers/CMSIS/Include/core_cm4.h \
-  libraries/HAL_Drivers/CMSIS/Include/mpu_armv7.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_newlib_version.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_default_types.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_intsup.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/features.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
-
-CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c \
-  board/CubeMX_Config/Inc/stm32f4xx_hal_conf.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_compiler.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_gcc.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_version.h \
-  libraries/HAL_Drivers/CMSIS/Include/core_cm4.h \
-  libraries/HAL_Drivers/CMSIS/Include/mpu_armv7.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_newlib_version.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_default_types.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_intsup.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/features.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
-
 CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c \
   board/CubeMX_Config/Inc/stm32f4xx_hal_conf.h \
   libraries/HAL_Drivers/CMSIS/Include/cmsis_compiler.h \
@@ -820,45 +664,6 @@ CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/st
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
 
-CMakeFiles/rtt_Libraries.dir/libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c \
-  board/CubeMX_Config/Inc/stm32f4xx_hal_conf.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_compiler.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_gcc.h \
-  libraries/HAL_Drivers/CMSIS/Include/cmsis_version.h \
-  libraries/HAL_Drivers/CMSIS/Include/core_cm4.h \
-  libraries/HAL_Drivers/CMSIS/Include/mpu_armv7.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
-  libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_newlib_version.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_default_types.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_intsup.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_stdint.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/features.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
-
 
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h:
 
@@ -869,8 +674,6 @@ board/CubeMX_Config/Inc/stm32f4xx_hal_conf.h:
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:
 
 libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h:
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c:
 
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:
 
@@ -964,16 +767,8 @@ C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw
 
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c:
 
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c:
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c:
-
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:
 
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:
-
-libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:
 
 libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c:
