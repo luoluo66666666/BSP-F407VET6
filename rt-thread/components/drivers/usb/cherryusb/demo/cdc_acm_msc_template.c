@@ -111,7 +111,7 @@ static const uint8_t cdc_msc_descriptor[] = {
     USB_LANGID_INIT(USBD_LANGID_STRING),
     ///////////////////////////////////////
     /// string1 descriptor
-    ///////////////////////////////////////
+    /////////////////////////////////////// 
     0x14,                       /* bLength */
     USB_DESCRIPTOR_TYPE_STRING, /* bDescriptorType */
     'C', 0x00,                  /* wcChar0 */
@@ -273,6 +273,8 @@ void usbd_cdc_acm_set_dtr(uint8_t busid, uint8_t intf, bool dtr)
         dtr_enable = 0;
     }
 }
+
+USB_NOCACHE_RAM_SECTION USB_MEM_ALIGNX uint8_t test_buffer[2048];
 
 void cdc_acm_data_send_with_dtr_test(uint8_t busid)
 {

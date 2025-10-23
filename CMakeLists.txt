@@ -73,6 +73,7 @@ INCLUDE_DIRECTORIES(
 ADD_DEFINITIONS(
 	-DSTM32F407xx
 	-D__RTTHREAD__
+	-DCONFIG_USB_HS
 	-DRT_USING_NEWLIBC
 	-DRT_USING_LIBC
 	-D_POSIX_C_SOURCE=1
@@ -86,13 +87,14 @@ SET(RT_APPLICATIONS_SOURCES
 )
 
 SET(RT_CHERRYUSB_SOURCES
-	rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c
-	rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c
-	rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c
-	rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c
-	rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c
+	rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c
 	rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c
+	rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c
+	rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c
+	rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c
 	rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c
+	rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c
+	rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c
 	rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c
 )
 
@@ -131,10 +133,10 @@ SET(RT_DRIVERS_SOURCES
 )
 
 SET(RT_FINSH_SOURCES
-	rt-thread/components/finsh/cmd.c
-	rt-thread/components/finsh/msh_parse.c
-	rt-thread/components/finsh/msh.c
 	rt-thread/components/finsh/shell.c
+	rt-thread/components/finsh/cmd.c
+	rt-thread/components/finsh/msh.c
+	rt-thread/components/finsh/msh_parse.c
 )
 
 SET(RT_KERNEL_SOURCES
@@ -156,11 +158,11 @@ SET(RT_KERNEL_SOURCES
 )
 
 SET(RT_KLIBC_SOURCES
-	rt-thread/src/klibc/kerrno.c
-	rt-thread/src/klibc/rt_vsscanf.c
-	rt-thread/src/klibc/kstring.c
-	rt-thread/src/klibc/kstdio.c
 	rt-thread/src/klibc/rt_vsnprintf_tiny.c
+	rt-thread/src/klibc/kstdio.c
+	rt-thread/src/klibc/kstring.c
+	rt-thread/src/klibc/rt_vsscanf.c
+	rt-thread/src/klibc/kerrno.c
 )
 
 SET(RT_LIBCPU_SOURCES
@@ -172,23 +174,23 @@ SET(RT_LIBCPU_SOURCES
 )
 
 SET(RT_LIBRARIES_SOURCES
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
+	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c
 	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c
 	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 	libraries/STM32F4xx_HAL/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c
 )
 
 SET(RT_POSIX_SOURCES

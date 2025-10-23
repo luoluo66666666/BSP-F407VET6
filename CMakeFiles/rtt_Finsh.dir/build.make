@@ -71,10 +71,24 @@ include CMakeFiles/rtt_Finsh.dir/flags.make
 CMakeFiles/rtt_Finsh.dir/codegen:
 .PHONY : CMakeFiles/rtt_Finsh.dir/codegen
 
+CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj: CMakeFiles/rtt_Finsh.dir/flags.make
+CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj: rt-thread/components/finsh/shell.c
+CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj: CMakeFiles/rtt_Finsh.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj -MF CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\shell.c.obj.d -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\shell.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\shell.c
+
+CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\shell.c > CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\shell.c.i
+
+CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\shell.c -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\shell.c.s
+
 CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.obj: CMakeFiles/rtt_Finsh.dir/flags.make
 CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.obj: rt-thread/components/finsh/cmd.c
 CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.obj: CMakeFiles/rtt_Finsh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.obj"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.obj -MF CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\cmd.c.obj.d -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\cmd.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\cmd.c
 
 CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.i: cmake_force
@@ -84,20 +98,6 @@ CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.i: cmake_force
 CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.s"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\cmd.c -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\cmd.c.s
-
-CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj: CMakeFiles/rtt_Finsh.dir/flags.make
-CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj: rt-thread/components/finsh/msh_parse.c
-CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj: CMakeFiles/rtt_Finsh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj -MF CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\msh_parse.c.obj.d -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\msh_parse.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\msh_parse.c
-
-CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\msh_parse.c > CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\msh_parse.c.i
-
-CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\msh_parse.c -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\msh_parse.c.s
 
 CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh.c.obj: CMakeFiles/rtt_Finsh.dir/flags.make
 CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh.c.obj: rt-thread/components/finsh/msh.c
@@ -113,24 +113,24 @@ CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh.c.s"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\msh.c -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\msh.c.s
 
-CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj: CMakeFiles/rtt_Finsh.dir/flags.make
-CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj: rt-thread/components/finsh/shell.c
-CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj: CMakeFiles/rtt_Finsh.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj -MF CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\shell.c.obj.d -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\shell.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\shell.c
+CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj: CMakeFiles/rtt_Finsh.dir/flags.make
+CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj: rt-thread/components/finsh/msh_parse.c
+CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj: CMakeFiles/rtt_Finsh.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj -MF CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\msh_parse.c.obj.d -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\msh_parse.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\msh_parse.c
 
-CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\shell.c > CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\shell.c.i
+CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\msh_parse.c > CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\msh_parse.c.i
 
-CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\shell.c -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\shell.c.s
+CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\finsh\msh_parse.c -o CMakeFiles\rtt_Finsh.dir\rt-thread\components\finsh\msh_parse.c.s
 
-rtt_Finsh: CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.obj
-rtt_Finsh: CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj
-rtt_Finsh: CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh.c.obj
 rtt_Finsh: CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/shell.c.obj
+rtt_Finsh: CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/cmd.c.obj
+rtt_Finsh: CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh.c.obj
+rtt_Finsh: CMakeFiles/rtt_Finsh.dir/rt-thread/components/finsh/msh_parse.c.obj
 rtt_Finsh: CMakeFiles/rtt_Finsh.dir/build.make
 .PHONY : rtt_Finsh
 

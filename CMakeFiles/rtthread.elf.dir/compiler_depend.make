@@ -115,6 +115,8 @@ CMakeFiles/rtthread.elf.dir/applications/main.c.obj: applications/main.c \
   rt-thread/components/drivers/include/rtdevice.h \
   rt-thread/components/drivers/usb/cherryusb/class/cdc/usb_cdc.h \
   rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.h \
+  rt-thread/components/drivers/usb/cherryusb/class/msc/usb_msc.h \
+  rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.h \
   rt-thread/components/drivers/usb/cherryusb/common/usb_dc.h \
   rt-thread/components/drivers/usb/cherryusb/common/usb_def.h \
   rt-thread/components/drivers/usb/cherryusb/common/usb_errno.h \
@@ -360,6 +362,10 @@ libraries/STM32F4xx_HAL/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h:
 rt-thread/components/drivers/usb/cherryusb/class/cdc/usb_cdc.h:
 
 rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.h:
+
+rt-thread/components/drivers/usb/cherryusb/class/msc/usb_msc.h:
+
+rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.h:
 
 rt-thread/components/drivers/usb/cherryusb/common/usb_dc.h:
 

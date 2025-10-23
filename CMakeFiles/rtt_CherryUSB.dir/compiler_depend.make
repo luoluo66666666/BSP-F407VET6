@@ -60,6 +60,66 @@ CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cd
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   rtconfig.h
 
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj: rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c \
+  board/usb_config.h \
+  rt-thread/components/drivers/usb/cherryusb/class/msc/usb_msc.h \
+  rt-thread/components/drivers/usb/cherryusb/class/msc/usb_scsi.h \
+  rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_dc.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_def.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_errno.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_list.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_log.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_memcpy.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_util.h \
+  rt-thread/components/drivers/usb/cherryusb/common/usb_version.h \
+  rt-thread/components/drivers/usb/cherryusb/core/usbd_core.h \
+  rt-thread/components/finsh/finsh.h \
+  rt-thread/include/klibc/kerrno.h \
+  rt-thread/include/klibc/kstdio.h \
+  rt-thread/include/klibc/kstring.h \
+  rt-thread/include/rtatomic.h \
+  rt-thread/include/rtcompiler.h \
+  rt-thread/include/rtdef.h \
+  rt-thread/include/rthw.h \
+  rt-thread/include/rtklibc.h \
+  rt-thread/include/rtm.h \
+  rt-thread/include/rtsched.h \
+  rt-thread/include/rtservice.h \
+  rt-thread/include/rtthread.h \
+  rt-thread/include/rttypes.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_ansi.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/_newlib_version.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/alloca.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_default_types.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_types.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/stdlib.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/types.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/newlib.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdint.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdio.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/stdlib.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/string.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_intsup.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_pthreadtypes.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_stdint.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/_types.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/cdefs.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/config.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/errno.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/features.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/lock.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/reent.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/stdio.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/string.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/types.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  rtconfig.h
+
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj: rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c \
   board/usb_config.h \
   rt-thread/components/drivers/usb/cherryusb/common/usb_dc.h \
@@ -117,10 +177,12 @@ CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usb
   C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   rtconfig.h
 
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c \
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c \
   board/usb_config.h \
   rt-thread/components/drivers/usb/cherryusb/class/cdc/usb_cdc.h \
   rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.h \
+  rt-thread/components/drivers/usb/cherryusb/class/msc/usb_msc.h \
+  rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.h \
   rt-thread/components/drivers/usb/cherryusb/common/usb_dc.h \
   rt-thread/components/drivers/usb/cherryusb/common/usb_def.h \
   rt-thread/components/drivers/usb/cherryusb/common/usb_errno.h \
@@ -402,8 +464,6 @@ CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc
   rtconfig.h
 
 
-rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c:
-
 rt-thread/components/drivers/usb/cherryusb/common/usb_def.h:
 
 board/usb_config.h:
@@ -450,6 +510,8 @@ rt-thread/include/klibc/kerrno.h:
 
 rt-thread/include/rtdef.h:
 
+rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.h:
+
 rt-thread/include/klibc/kstdio.h:
 
 rt-thread/include/klibc/kstring.h:
@@ -462,15 +524,17 @@ rt-thread/include/rtatomic.h:
 
 rt-thread/include/rtcompiler.h:
 
-rt-thread/include/rthw.h:
-
 rt-thread/components/drivers/usb/cherryusb/common/usb_osal.h:
+
+rt-thread/include/rthw.h:
 
 rt-thread/include/rtklibc.h:
 
 rt-thread/include/rtm.h:
 
 rt-thread/include/rtsched.h:
+
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c:
 
 rt-thread/include/rtservice.h:
 
@@ -488,15 +552,11 @@ C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw
 
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/alloca.h:
 
-rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c:
-
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_default_types.h:
 
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/_types.h:
 
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/ieeefp.h:
-
-rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c:
 
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/machine/types.h:
 
@@ -522,11 +582,21 @@ C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw
 
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/reent.h:
 
+rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c:
+
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/arm-none-eabi/include/sys/string.h:
 
 C:/Users/ll/Downloads/env-windows-v2.0.0/env-windows/tools/gnu_gcc/arm_gcc/mingw/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
 
+rt-thread/components/drivers/usb/cherryusb/class/msc/usb_msc.h:
+
+rt-thread/components/drivers/usb/cherryusb/class/msc/usb_scsi.h:
+
 rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c:
+
+rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c:
+
+rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c:
 
 rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c:
 

@@ -1154,6 +1154,30 @@ rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.s
 .PHONY : rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.s
 
+rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.obj: rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.obj
+
+# target to build an object file
+rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj
+
+rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.i: rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.i
+
+# target to preprocess a source file
+rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.i
+
+rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.s: rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.s
+
+# target to generate assembly for a file
+rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.s
+
 rt-thread/components/drivers/usb/cherryusb/core/usbd_core.obj: rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj
 .PHONY : rt-thread/components/drivers/usb/cherryusb/core/usbd_core.obj
 
@@ -1178,29 +1202,29 @@ rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.s
 .PHONY : rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.s
 
-rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.obj: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj
-.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.obj
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.obj: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.obj
 
 # target to build an object file
-rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj
-.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj
 
-rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.i: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.i
-.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.i
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.i: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.i
 
 # target to preprocess a source file
-rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.i
-.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.i
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.i
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.i
 
-rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.s: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.s
-.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.s
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.s: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.s
 
 # target to generate assembly for a file
-rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.s
-.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.s
+rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rtt_CherryUSB.dir\build.make CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.s
+.PHONY : rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.s
 
 rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.obj: rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj
 .PHONY : rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.obj
@@ -2301,12 +2325,15 @@ help:
 	@echo ... rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.obj
 	@echo ... rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.i
 	@echo ... rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.s
+	@echo ... rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.obj
+	@echo ... rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.i
+	@echo ... rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.s
 	@echo ... rt-thread/components/drivers/usb/cherryusb/core/usbd_core.obj
 	@echo ... rt-thread/components/drivers/usb/cherryusb/core/usbd_core.i
 	@echo ... rt-thread/components/drivers/usb/cherryusb/core/usbd_core.s
-	@echo ... rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.obj
-	@echo ... rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.i
-	@echo ... rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.s
+	@echo ... rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.obj
+	@echo ... rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.i
+	@echo ... rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.s
 	@echo ... rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.obj
 	@echo ... rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.i
 	@echo ... rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.s

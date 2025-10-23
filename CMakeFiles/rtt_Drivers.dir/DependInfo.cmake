@@ -14,6 +14,7 @@ set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
+  "CONFIG_USB_HS"
   "RT_USING_LIBC"
   "RT_USING_NEWLIBC"
   "STM32F407xx"

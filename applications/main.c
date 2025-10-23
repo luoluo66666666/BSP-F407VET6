@@ -14,6 +14,7 @@
 // #include "usb.h"
 #include "usbd_core.h"
 #include "usbd_cdc_acm.h"
+#include "usbd_msc.h"
 
 /* defined the LED0 pin: PB1 */
 #define LED0_PIN GET_PIN(C, 2)
@@ -23,9 +24,9 @@
 static void usb_thread_entry(void *arg)
 {
 }
-extern void cdc_acm_init(uint8_t busid, uintptr_t reg_base);
+extern void cdc_acm_msc_init(uint8_t busid, uintptr_t reg_base);
+
 extern void cdc_acm_data_send_with_dtr_test(uint8_t busid);
-extern void cdc_acm_data_send(uint8_t busid, uint8_t *data, uint32_t len);
 extern USB_NOCACHE_RAM_SECTION USB_MEM_ALIGNX uint8_t test_buffer[2048];
 int main(void)
 {
@@ -40,10 +41,10 @@ int main(void)
     const char msg[] = "hello cherryusb\r\n";
     memcpy(&test_buffer[0], msg, strlen(msg));
 
-    cdc_acm_init(0, USB_OTG_FS_PERIPH_BASE);
+    cdc_acm_msc_init(0, USB_OTG_FS_PERIPH_BASE);
     while (count++)
     {
-        cdc_acm_data_send(0, test_buffer, sizeof(msg));
+        cdc_acm_data_send_with_dtr_test(0);
         rt_pin_write(LED0_PIN, PIN_HIGH);
         rt_pin_write(LED1_PIN, PIN_HIGH);
         rt_thread_mdelay(500);

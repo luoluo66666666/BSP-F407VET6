@@ -71,80 +71,24 @@ include CMakeFiles/rtt_CherryUSB.dir/flags.make
 CMakeFiles/rtt_CherryUSB.dir/codegen:
 .PHONY : CMakeFiles/rtt_CherryUSB.dir/codegen
 
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj: rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_msc_template.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_msc_template.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_msc_template.c
 
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c.i
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_msc_template.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_msc_template.c.i
 
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c.s
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj: rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c.i
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c.s
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj: rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_template.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_template.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_template.c
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_template.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_template.c.i
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_template.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_template.c.s
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj: rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c.i
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c.s
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj: rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.i"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c.i
-
-CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.s"
-	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c.s
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_msc_template.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\demo\cdc_acm_msc_template.c.s
 
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj: rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\core\usbd_core.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\core\usbd_core.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\core\usbd_core.c
 
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.i: cmake_force
@@ -155,10 +99,52 @@ CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usb
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.s"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\core\usbd_core.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\core\usbd_core.c.s
 
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj: rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c.i
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_glue_st.c.s
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj: rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c.i
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_msh.c.s
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj: rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\class\msc\usbd_msc.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\class\msc\usbd_msc.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\class\msc\usbd_msc.c
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\class\msc\usbd_msc.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\class\msc\usbd_msc.c.i
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\class\msc\usbd_msc.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\class\msc\usbd_msc.c.s
+
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj: rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_dc_dwc2.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_dc_dwc2.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_dc_dwc2.c
 
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.i: cmake_force
@@ -169,10 +155,38 @@ CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.s"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_dc_dwc2.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\port\dwc2\usb_dc_dwc2.c.s
 
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj: rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c.i
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\platform\rtthread\usb_check.c.s
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj: rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.i"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c > CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c.i
+
+CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.s"
+	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\osal\usb_osal_rtthread.c.s
+
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj: CMakeFiles/rtt_CherryUSB.dir/flags.make
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj: rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj: CMakeFiles/rtt_CherryUSB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\rt-thread-code\project\BSP-F407VE\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj -MF CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\class\cdc\usbd_cdc_acm.c.obj.d -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\class\cdc\usbd_cdc_acm.c.obj -c D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\class\cdc\usbd_cdc_acm.c
 
 CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.i: cmake_force
@@ -183,13 +197,14 @@ CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cd
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.s"
 	C:\Users\ll\Downloads\env-windows-v2.0.0\env-windows\tools\gnu_gcc\arm_gcc\mingw\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\rt-thread-code\project\BSP-F407VE\rt-thread\components\drivers\usb\cherryusb\class\cdc\usbd_cdc_acm.c -o CMakeFiles\rtt_CherryUSB.dir\rt-thread\components\drivers\usb\cherryusb\class\cdc\usbd_cdc_acm.c.s
 
-rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj
-rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj
-rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_template.c.obj
-rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj
-rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj
+rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/demo/cdc_acm_msc_template.c.obj
 rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/core/usbd_core.c.obj
+rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_glue_st.c.obj
+rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_msh.c.obj
+rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/msc/usbd_msc.c.obj
 rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/port/dwc2/usb_dc_dwc2.c.obj
+rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/platform/rtthread/usb_check.c.obj
+rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/osal/usb_osal_rtthread.c.obj
 rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/rt-thread/components/drivers/usb/cherryusb/class/cdc/usbd_cdc_acm.c.obj
 rtt_CherryUSB: CMakeFiles/rtt_CherryUSB.dir/build.make
 .PHONY : rtt_CherryUSB

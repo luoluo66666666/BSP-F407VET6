@@ -225,7 +225,7 @@
 #endif
 
 #ifndef CONFIG_USBDEV_EP_NUM
-#define CONFIG_USBDEV_EP_NUM 4
+#define CONFIG_USBDEV_EP_NUM 6
 #endif
 
 /* When your chip hardware supports high-speed and wants to initialize it in high-speed mode, the relevant IP will configure the internal or external high-speed PHY according to CONFIG_USB_HS. */
@@ -244,7 +244,7 @@
 #define CONFIG_USB_DWC2_TX1_FIFO_SIZE (64 / 4)
 #define CONFIG_USB_DWC2_TX2_FIFO_SIZE (64 / 4)
 #define CONFIG_USB_DWC2_TX3_FIFO_SIZE (64 / 4)
-#define CONFIG_USB_DWC2_TX4_FIFO_SIZE (0 / 4)
+#define CONFIG_USB_DWC2_TX4_FIFO_SIZE (64 / 4)
 #define CONFIG_USB_DWC2_TX5_FIFO_SIZE (0 / 4)
 #define CONFIG_USB_DWC2_TX6_FIFO_SIZE (0 / 4)
 #define CONFIG_USB_DWC2_TX7_FIFO_SIZE (0 / 4)
